@@ -14,4 +14,4 @@ nnoremap tn  :tabnext<CR>
 set foldlevel=99
 set foldmethod=manual
 set nofoldenable
-map <C-i> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <C-i> :!ctags -R --exclude=js --exclude=node_modules --exclude=snapshot --exclude=images --exclude=uploads --exclude=theme --exclude=scripts --exclude=.git --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
